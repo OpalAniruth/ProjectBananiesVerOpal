@@ -1,0 +1,132 @@
+/*{
+  outline: 1px solid salmon;
+} */
+#title{
+
+    background-color: #F9E29C;
+    color: #fff;
+}
+
+h1{
+font-family: 'Mitr', sans-serif;
+font-size: 4rem;
+font-weight: medium;
+line-height: 1.5;
+
+}
+.container-fluid{
+    padding: 4% 10%;
+
+}
+
+/* Navigation Bar */
+.navbar {
+    padding-bottom: 4.5rem;
+  }
+  
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    /* font-weight:bold; */
+    }
+    
+.nav-item{
+        padding: 0 18px;
+      }
+      
+.nav-link {
+        font-size: 1.2rem;
+        font-family: 'Ubuntu', sans-serif;
+      }
+
+      /* Download-button */
+      
+.download-button {
+
+        margin: 5% 3% 5% 0;
+      }
+    
+      /* title-image */
+.title-image{
+margin-left: 10%;
+width: 60%;
+transform: rotate(25deg);
+}
+
+/*Feature*/
+#features {
+  padding: 3% 9%;
+  background-color:#fffceb;
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+  justify-content: center;
+}
+.row{
+  width: 80%;
+}
+.feature-box{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 10px ;
+}
+.icon {
+color: #826651;
+margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color:#8BBCCC;
+}
+.box{
+  font-family: arial;
+  text-align: center;
+}
+#footer{
+  padding: 5% 5%;
+  text-align: center;
+}
+#pricing1{
+  padding: 5% 5%;
+  display: flex;
+  justify-content: center;
+  background-color: #fff9a1;
+}
+.pricing1,.pricing2,.pricing3,.pricing4
+.banana {
+  width: 100%;
+  justify-content: center;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.pricing1 h2 {
+  text-align: center;
+  justify-content: space-between;
+  
+}
+.banana{
+  width: 30%;
+  margin-left: 10%;
+  margin-right: -10%;
+}
+.C1-image1,.C2-image2,.C3-image3  {
+  margin: 1rem auto;
+  width: 35%;
+  box-shadow: 1.5px 1.5px 7.5px #362416;
+  border-radius: 10%;
+}
+#Cimages{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #F9E29C;
+}
+#Cimages h3 {
+  text-align: center;
+  margin-top: 2.5%;
+}
